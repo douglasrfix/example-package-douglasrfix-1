@@ -1,0 +1,16 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example-package-douglasrfix-1"
+version = "0.0.0.a1"
+description = "Testing pypi integration"
+readme = "README.md"
+authors = [{ name = "Douglas R. Fix", email = "douglasrfix@prairieobserver.com" }]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/douglasrfix/example-package-douglasrfix-1"
