@@ -14,3 +14,6 @@ license = { file = "LICENSE" }
 
 [project.urls]
 Homepage = "https://github.com/douglasrfix/example-package-douglasrfix-1"
+
+[project.scripts]
+realpython = "Test.__main__:main"
