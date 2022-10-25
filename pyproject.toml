@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example-package-douglasrfix-1"
-version = "0.0.0a3"
+version = "0.0.0a4"
 description = "Testing pypi integration"
 readme = "README.md"
 authors = [{ name = "Douglas R. Fix", email = "douglasrfix@prairieobserver.com" }]
