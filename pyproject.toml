@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example-package-douglasrfix-1"
-version = "0.0.0a6"
+version = "0.0.0a7"
 description = "Testing pypi integration"
 readme = "README.md"
 authors = [{ name = "Douglas R. Fix", email = "douglasrfix@prairieobserver.com" }]
@@ -16,4 +16,4 @@ license = { file = "LICENSE" }
 Homepage = "https://github.com/douglasrfix/example-package-douglasrfix-1"
 
 [project.scripts]
-IGMS = "Test.__main__:main"
+igms = "Test.__main__:main"
